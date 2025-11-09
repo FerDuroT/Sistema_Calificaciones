@@ -56,7 +56,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['login'])) {
 
         header('Location: calificaciones.php');
     } else {
-        //Caso contrario: mostrar un mensaje de error si el usuario o contraseña son incorrectos
+        //Caso contrario: XXXXmostrar un mensaje de error si el usuario o contraseña son incorrectos
         echo "<div class='alert alert-danger mt-3 text-center'>Usuario o contraseña incorrectos.</div>";
     }
 }
